@@ -1,9 +1,12 @@
 import "./App.css";
 import React from "react";
+import { Button, Grid } from "@mui/material";
 
 function App() {
   return(
-  <div>Test</div>
+  <Grid container>
+  <Button>Test</Button>
+  </Grid>
   )
 }
 
